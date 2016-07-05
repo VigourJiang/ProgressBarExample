@@ -1,5 +1,5 @@
 # ProgressBarExample
-A project illustrating how to incorporate progress bars into Android projects, and how to use threads to move potentially blocking tasks to background threads and how to communicate between threads.
+A project illustrating how to incorporate progress bars into Android projects, how to use threads to move potentially blocking tasks to background threads, and how to communicate between threads.
 
 The projects in these repositories correspond to individual lessons in the free online android programming course 
 at http://eagle.phys.utk.edu/guidry/android/ 
