@@ -16,8 +16,6 @@ import android.content.Intent;
 
 public class DialogFrag extends DialogFragment {
 
-    private static final String TAG = "PROGRESS";
-    ProgressDialog progDialog;
     ProgressBar pbar;
     public static Context context;
     int barType;
@@ -30,7 +28,7 @@ public class DialogFrag extends DialogFragment {
 
     boolean threadStopped = false;
 
-    // Whether to implement holo dark (if false) or holo light (if true) theme for
+    // Whether to implement dark (if false) or light (if true) theme for
     // dialog window that holds the progress bar.
 
     boolean lightTheme = true;

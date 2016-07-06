@@ -8,13 +8,11 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.Menu;
 
 public class MainActivity extends Activity {
 
     private static final String TAG = "PROGRESS";
     int typeBar;                                 // Type bar: 0=spinner, 1=horizontal
-    ProgressBar progDialog;
     Button button1, button2, button3, button4, button5;
     DialogFrag fragment;
 
@@ -86,5 +84,4 @@ public class MainActivity extends Activity {
             }
         });
     }
-
 }
