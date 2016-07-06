@@ -5,13 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.view.View;
 import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
 
-    private static final String TAG = "PROGRESS";
     int typeBar;                                 // Type bar: 0=spinner, 1=horizontal
     Button button1, button2, button3, button4, button5;
     DialogFrag fragment;

@@ -6,6 +6,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
+    <!-- This indeterminate progress bar has a material design theme -->
+
     <ProgressBar
         android:id="@+id/progress_bar"
         android:theme="@style/indeterminateMaterialProgress"
