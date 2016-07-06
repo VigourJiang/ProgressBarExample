@@ -2,6 +2,7 @@ package com.lightcone.progressbarexample;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -56,7 +57,16 @@ public class ProgressExample extends Activity {
             // The custom format is defined in res/drawable/custom_progress_bar.xml
 
             if(custom){
-                Drawable draw = getResources().getDrawable(R.drawable.custom_progress_bar);
+
+                Drawable draw;
+                // Handle method getDrawable deprecated as of API 22
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    // Theme required but set to null for our example
+                    draw = getResources().getDrawable(R.drawable.custom_progress_bar,null);
+                } else {
+                    draw = getResources().getDrawable(R.drawable.custom_progress_bar);
+                }
+
                 pbar.setProgressDrawable(draw);
             }
         }
