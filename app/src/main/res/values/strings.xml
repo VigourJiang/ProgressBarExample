@@ -1,3 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ProgressBarExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button01Text">Dialog Spinner</string>
+    <string name="Button02Text">Dialog Bar</string>
+    <string name="Button03Text">Inline Spinner</string>
+    <string name="Button04Text">Inline Bar</string>
+    <string name="Button05Text">Custom Inline Bar</string>
+    <string name="displayText">Now is the time for all good men to come the aid of their country</string>
+    <string name="waitText">Loading data </string>
 </resources>

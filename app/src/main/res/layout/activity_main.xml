@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.lightcone.progressbarexample.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:text="@string/Button01Text" >
+    </Button>
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button02Text" >
+    </Button>
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button03Text" >
+    </Button>
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button04Text" >
+    </Button>
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Button05Text" >
+    </Button>
+
+</LinearLayout>

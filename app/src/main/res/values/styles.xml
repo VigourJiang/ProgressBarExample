@@ -8,4 +8,37 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--
+   Custom ProgressBar themes.  See
+      http://stackoverflow.com/questions/12316365/showing-a-holo-themed-activity-circle
+   Custom definitions may be necessary to keep progress bars from defaulting to older non-holo
+   themes on new devices.  To see various options, go to
+      http://developer.android.com/reference/android/R.style.html
+   and search on "ProgressBar" in the webpage.
+   -->
+
+    <style name="ProgressBar.Horizontal.Indeterminate" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ProgressBar.Spinner.Indeterminate.Small" parent="@android:style/Widget.Holo.Light.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ProgressBar.Spinner.Indeterminate.Large" parent="@android:style/Widget.Holo.Light.ProgressBar.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="ProgressBar.Horizontal.Bar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+
 </resources>
