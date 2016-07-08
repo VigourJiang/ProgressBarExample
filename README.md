@@ -9,6 +9,7 @@ This project assumes the Gradle build system in Android Studio. It was targeted 
 but should be compatible with API 21 and beyond.  You will need
 
  - Android Studio (<a href="https://developer.android.com/studio/install.html" target="_new">Installing Android Studio</a>)
+ - An Android phone or tablet, or an Android phone or tablet emulator launched from Android Studio
 
 ## Getting Started
 First download this project using the <b>Clone or Download</b> button, either by importing 
